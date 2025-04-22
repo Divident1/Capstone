@@ -1,0 +1,11 @@
+package com.example.service;
+
+
+
+import com.example.model.User;
+import com.example.model.UserDTO;
+
+public interface UserService {
+    UserDTO getUserByEmail(String email);
+    User saveUser(User user);
+}

@@ -1,0 +1,6 @@
+package com.example.hotelservice.repository;
+
+public interface HotelRepository extends JpaRepository<Hotel, Long> {
+	
+	
+}
